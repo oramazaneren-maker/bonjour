@@ -100,7 +100,7 @@ export const menuData: { kategoriler: MenuCategory[] } = {
     {
       kategori_adi: "Yiyecekler",
       urunler: [
-        { isim: "Pizza", fiyat: "₺250" },
+        { isim: "Pizza", fiyat: "₺300" },
         { isim: "4 Peynirli Baget", fiyat: "₺190" },
         { isim: "Ay Çekirdekli Beyaz Peynirli Panini", fiyat: "₺190" },
         { isim: "Pocaccio Beyaz Peynirli Sandviç", fiyat: "₺190" },
