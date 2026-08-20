@@ -117,17 +117,17 @@ export const menuData: { kategoriler: MenuCategory[] } = {
         {
           isim: "Pesto Soslu Fettuccine",
           aciklama: "Fesleğen pesto sosu, Parmesan peyniri ve zeytinyağı ile hazırlanan ferah, hafif ve aromatik bir lezzet.",
-          fiyat: "Yakında Gelecek",
+          fiyat: "₺275",
         },
         {
           isim: "Fettuccine Alfredo",
           aciklama: "Tavuk ve kremalı Parmesan sosuyla hazırlanan klasik İtalyan lezzeti.",
-          fiyat: "Yakında Gelecek",
+          fiyat: "₺275",
         },
         {
           isim: "Trüflü Kremalı Fettuccine",
           aciklama: "Trüf aromalı özel krema sosuyla hazırlanan, yoğun ve benzersiz bir lezzet.",
-          fiyat: "Yakında Gelecek",
+          fiyat: "₺275",
         },
       ],
     },

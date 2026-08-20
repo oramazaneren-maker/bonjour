@@ -12,14 +12,14 @@ export function BrandMark({ className, priority = false }: BrandMarkProps) {
   return (
     <span
       className={cn(
-        "inline-flex shrink-0 items-center justify-center overflow-hidden rounded-[46%_54%_44%_56%] bg-[#efe1ce] ring-1 ring-[#4a2d21]/10",
+        "inline-flex shrink-0 items-center justify-center overflow-hidden rounded-[1.15rem] bg-[#0a0a0a] ring-1 ring-[#4a2d21]/10",
         className,
       )}
     >
       <img
         src={brandMarkUrl}
-        alt="Bonjour Coffee & Bakery amblemi"
-        className="h-[72%] w-[72%] object-contain"
+        alt="Bonjour Café amblemi"
+        className="h-full w-full object-cover"
         loading={priority ? "eager" : "lazy"}
         fetchPriority={priority ? "high" : "auto"}
       />

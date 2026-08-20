@@ -165,6 +165,13 @@
     display: none;
   }
 
+  .coffee-bean-veil {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Cg fill='none' stroke='%23653d2c' stroke-width='1.2' opacity='0.18'%3E%3Cellipse transform='rotate(-38 48 52)' cx='48' cy='52' rx='11' ry='16'/%3E%3Cpath d='M48 38c2 9 2 19 0 28'/%3E%3Cellipse transform='rotate(24 118 86)' cx='118' cy='86' rx='10' ry='15'/%3E%3Cpath d='M118 73c-1.6 8-1.6 18 0 26'/%3E%3Cellipse transform='rotate(-12 86 132)' cx='86' cy='132' rx='9' ry='13'/%3E%3Cpath d='M86 121c1.4 7 1.4 15 0 22'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: 180px 180px;
+    opacity: 0.28;
+    mix-blend-mode: multiply;
+  }
+
   .fluid-canvas {
     background:
       linear-gradient(135deg, rgba(255, 250, 241, 0.96), rgba(242, 226, 207, 0.82)),

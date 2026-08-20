@@ -102,8 +102,8 @@ const categoryMeta: Record<
   },
   "Makarnalar (Yeni)": {
     id: "makarnalar",
-    eyebrow: "Yakında menüde",
-    description: "Fettuccine tabanlı yeni makarna seçkimiz çok yakında.",
+    eyebrow: "Yeni seçki",
+    description: "Fettuccine tabanlı yeni makarna seçkimiz.",
     icon: Utensils,
   },
   Ekstralar: {
@@ -308,13 +308,14 @@ export default function Home() {
     <div className="min-h-screen overflow-x-hidden bg-[#f8f0e4] text-[#42261d] selection:bg-[#a25e43] selection:text-[#fffaf1]">
       <header className="relative isolate min-h-[38rem] overflow-hidden border-b border-[#4c2e22]/10 sm:min-h-[43rem]">
         <img
-          src="/manus-storage/bonjour-hero-editorial_75ab459e.jpg"
+          src="/images/bonjour-hero-coffee-beans.jpg"
           alt=""
           aria-hidden="true"
-          className="absolute inset-0 -z-20 h-full w-full object-cover object-[58%_50%]"
+          className="absolute inset-0 -z-20 h-full w-full object-cover object-[72%_48%]"
           fetchPriority="high"
         />
-        <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(249,242,231,0.98)_0%,rgba(249,242,231,0.91)_43%,rgba(249,242,231,0.28)_100%)] sm:bg-[linear-gradient(90deg,rgba(249,242,231,0.98)_0%,rgba(249,242,231,0.84)_47%,rgba(249,242,231,0.15)_100%)]" />
+        <div className="coffee-bean-veil pointer-events-none absolute inset-0 -z-10" aria-hidden="true" />
+        <div className="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(249,242,231,0.97)_0%,rgba(249,242,231,0.82)_38%,rgba(249,242,231,0.18)_68%,rgba(42,22,16,0.22)_100%)] sm:bg-[linear-gradient(90deg,rgba(249,242,231,0.96)_0%,rgba(249,242,231,0.72)_42%,rgba(249,242,231,0.08)_70%,rgba(32,18,14,0.18)_100%)]" />
         <div className="absolute -right-16 top-24 -z-10 size-56 rounded-full border border-[#6c4735]/15 sm:right-[7%] sm:size-72" />
 
         <div className="mx-auto flex min-h-[38rem] w-full max-w-6xl flex-col px-5 pb-9 pt-5 sm:min-h-[43rem] sm:px-8 sm:pb-12 sm:pt-7 lg:px-10">
@@ -326,7 +327,7 @@ export default function Home() {
             aria-label="Marka bilgisi"
           >
             <div className="flex items-center gap-3">
-              <BrandMark className="size-12 sm:size-14" priority />
+              <BrandMark className="size-14 sm:size-16" priority />
               <div className="hidden sm:block">
                 <p className="font-display text-lg font-semibold leading-none">Bonjour</p>
                 <p className="mt-1 text-[9px] font-semibold uppercase tracking-[0.22em] text-[#866a5b]">
@@ -423,6 +424,7 @@ export default function Home() {
             <span className="fluid-blob fluid-blob--beige" />
             <span className="fluid-blob fluid-blob--cream" />
           </div>
+          <div className="coffee-bean-veil pointer-events-none absolute inset-0 -z-10 opacity-[0.14]" aria-hidden="true" />
           <div className="pointer-events-none absolute inset-0 -z-10 bg-[url('/manus-storage/bonjour-paper-relief_bae60f96.jpg')] bg-cover bg-fixed bg-center opacity-[0.16] mix-blend-multiply" />
           <section className="mx-auto w-full max-w-5xl px-5 pb-24 pt-14 sm:px-8 sm:pb-28 sm:pt-20 lg:px-10">
             <AnimatePresence mode="wait">
@@ -587,7 +589,7 @@ export default function Home() {
         <div className="mx-auto w-full max-w-6xl px-5 py-12 sm:px-8 sm:py-16 lg:px-10">
           <div className="grid gap-10 sm:grid-cols-[1.15fr_0.85fr] sm:gap-16">
             <div>
-              <BrandMark className="size-14 bg-[#f0d9c5]" />
+              <BrandMark className="size-14" />
               <p className="mt-7 max-w-lg font-display text-[2.6rem] font-medium leading-[0.95] tracking-[-0.035em] sm:text-5xl">
                 Bir kahve uzağınızdayız.
               </p>
@@ -606,11 +608,11 @@ export default function Home() {
                   </address>
                 </div>
               </div>
-              <a href="tel:+903120000000" className="group flex items-start gap-3 border-b border-[#f8eadb]/12 pb-5">
+              <a href="tel:+905443302467" className="group flex items-start gap-3 border-b border-[#f8eadb]/12 pb-5">
                 <Phone className="mt-0.5 size-5 shrink-0 text-[#d88a68]" strokeWidth={1.5} />
                 <div className="flex-1">
                   <p className="mb-1 text-[10px] font-bold uppercase tracking-[0.2em] text-[#b99e8e]">İletişim</p>
-                  <span className="transition-colors group-hover:text-[#eaa282]">+90 (312) 000 00 00</span>
+                  <span className="transition-colors group-hover:text-[#eaa282]">+90 544 330 24 67</span>
                 </div>
                 <ArrowUpRight className="size-4 text-[#9e8070]" />
               </a>
